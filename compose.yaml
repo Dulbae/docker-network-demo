@@ -1,6 +1,6 @@
 services:
   web:
-    image: nginx:latest
+    build: .
     ports:
       - "${NGINX_PORT}:80"
     volumes:
@@ -20,7 +20,7 @@ services:
   adminer:
      image: adminer
      ports:
-      - "8081:8080"
+      - "8082:8080"
 
 volumes:
   mysql-data:
