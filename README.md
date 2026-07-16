@@ -1,9 +1,22 @@
 # Docker Network Demo
 
-## Learned
+## Features
 
-- Docker Network
-- Docker Volume
-- Bind Mount
+- Docker Compose
+- Dockerfile
+- MySQL
 - Named Volume
-- Environment Variable
+- Environment Variables
+- GitHub Actions CI
+
+## Run
+
+```bash
+docker compose up --build -d
+```
+
+## Stop
+
+```bash
+docker compose down
+```
